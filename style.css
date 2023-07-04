@@ -39,3 +39,16 @@ body::before {
   width: 200px;
   height: 200px;
 }
+
+.myself2 {
+  width: 302px;
+  height: 403px;
+}
+
+#sophomore {
+  font-size: 22px;
+}
+
+#cs {
+  text-decoration: none;
+}
