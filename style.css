@@ -68,3 +68,12 @@ body::before {
   height: 15vw;
   object-fit: cover;
 }
+
+.text-success {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.arrows {
+  color: darkgray;
+}
