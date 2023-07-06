@@ -150,3 +150,12 @@ body::before {
 .bootstrap {
   color: blueviolet;
 }
+
+.portfolio {
+  width: 90%;
+}
+
+.p1 {
+  font-size: 18px;
+  font-style: italic;
+}
