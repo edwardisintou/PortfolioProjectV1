@@ -51,9 +51,24 @@ body::before {
     "Lucida Sans", Arial, sans-serif;
 }
 
-.nav-item a:hover {
+.elements a:hover {
   color: red;
   padding: 7px;
+}
+
+.all-project {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.university-projects {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.self-projects {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .text-warning {
