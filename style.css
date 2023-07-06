@@ -110,6 +110,10 @@ body::before {
   color: skyblue;
 }
 
+.js {
+  color: yellow;
+}
+
 .bootstrap {
   color: blueviolet;
 }
