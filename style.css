@@ -159,3 +159,12 @@ body::before {
   font-size: 18px;
   font-style: italic;
 }
+
+.code {
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.code-icons {
+  font-size: 1.2em;
+}
