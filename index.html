@@ -38,16 +38,70 @@
 
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class="navbar-nav">
-            <li class="nav-item">
+            <li class="nav-item elements">
               <a href="#about" id="font" class="nav-link mx-1">ABOUT ME</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item elements">
               <a href="#skills" id="font" class="nav-link mx-1">SKILLS</a>
             </li>
-            <li class="nav-item">
-              <a href="#projects" id="font" class="nav-link mx-1">PROJECTS</a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#projects"
+                role="button"
+                data-bs-toggle="dropdown"
+              >
+                PROJECTS
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item text-center text-danger all-project"
+                    href="#projects"
+                    >All Project</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item text-secondary university-projects"
+                    href="#university"
+                    >University projects</a
+                  >
+                </li>
+                <li>
+                  <a href="#graph-representation" class="dropdown-item"
+                    >Graph Representation</a
+                  >
+                </li>
+                <li>
+                  <a href="#intrusion-detection-system" class="dropdown-item"
+                    >Intrusion Detection System</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#data-analysis-and-visualisation"
+                    class="dropdown-item"
+                    >Data Analysis And Visualisation</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    href="#self"
+                    class="dropdown-item text-secondary self-projects"
+                    >Self Projects</a
+                  >
+                </li>
+                <li>
+                  <a href="#portfolio-project-v1" class="dropdown-item"
+                    >Portfolio Project Version 1</a
+                  >
+                </li>
+              </ul>
             </li>
-            <li class="nav-item">
+            <li class="nav-item elements">
               <a href="#contact" id="font" class="nav-link">CONTACT</a>
             </li>
           </ul>
@@ -437,9 +491,9 @@
     <!-- Projects -->
     <section class="bg-dark text-white p-5" id="projects">
       <div class="container">
-        <h1 class="text-center text-warning pb-3">Projects</h1>
+        <h1 class="text-center text-warning">Projects</h1>
         <section id="university">
-          <aside class="px-5" id="graph-representation">
+          <aside class="pt-3 px-5" id="graph-representation">
             <div class="row align-items-center justify-content-between">
               <div class="col-md">
                 <img
