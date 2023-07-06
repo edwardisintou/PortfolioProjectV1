@@ -86,6 +86,10 @@ body::before {
   object-fit: cover;
 }
 
+.text-bold {
+  font-weight: bold;
+}
+
 .text-success {
   font-style: italic;
   text-decoration: underline;
