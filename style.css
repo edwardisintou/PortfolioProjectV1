@@ -47,6 +47,7 @@ body::before {
 }
 
 .text-warning {
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -76,4 +77,39 @@ body::before {
 
 .arrows {
   color: darkgray;
+}
+
+.my-skills {
+  font-size: 18px;
+  list-style: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.java {
+  color: red;
+}
+
+.python {
+  color: yellow;
+}
+
+.C {
+  color: cornflowerblue;
+}
+
+.plus {
+  font-size: 1.2em;
+  color: cornflowerblue;
+}
+
+.html {
+  color: orangered;
+}
+
+.css {
+  color: skyblue;
+}
+
+.bootstrap {
+  color: blueviolet;
 }
