@@ -91,6 +91,10 @@ body::before {
   text-decoration: underline;
 }
 
+.ask {
+  font-weight: bold;
+}
+
 .arrows {
   color: darkgray;
 }
