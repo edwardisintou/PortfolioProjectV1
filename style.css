@@ -10,6 +10,21 @@
   #font {
     font-size: 40px;
   }
+
+  .navbar {
+    position: relative;
+    z-index: 1;
+  }
+
+  .nav-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navbar-nav .nav-item {
+    margin-right: 10px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -41,14 +56,15 @@ body::before {
   padding: 7px;
 }
 
-.discord-icon {
-  width: 200px;
-  height: 200px;
-}
-
 .text-warning {
   font-size: 40px;
   font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .text-warning {
+    font-size: 32px;
+  }
 }
 
 .myself2 {
