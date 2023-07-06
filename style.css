@@ -86,6 +86,10 @@ body::before {
   object-fit: cover;
 }
 
+.checkout-button {
+  text-decoration: none;
+}
+
 .text-bold {
   font-weight: bold;
 }
