@@ -78,7 +78,7 @@ body::before {
 
 @media (max-width: 576px) {
   .text-warning {
-    font-size: 32px;
+    font-size: 25px;
   }
 }
 
