@@ -27,6 +27,18 @@
   }
 }
 
+@media (max-width: 768px) {
+  #font {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 576px) {
+  #font {
+    font-size: 30px;
+  }
+}
+
 @media (min-width: 768px) {
   .news-input {
     width: 45%;
@@ -72,14 +84,8 @@ body::before {
 }
 
 .text-warning {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: bold;
-}
-
-@media (max-width: 576px) {
-  .text-warning {
-    font-size: 10px;
-  }
 }
 
 .myself2 {
@@ -128,7 +134,7 @@ body::before {
 }
 
 .my-skills {
-  font-size: 18px;
+  font-size: 17px;
   list-style: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -167,7 +173,13 @@ body::before {
 }
 
 .portfolio {
-  width: 90%;
+  width: 80%;
+}
+
+@media (max-width: 576px) {
+  .portfolio {
+    width: 200%;
+  }
 }
 
 .p1 {
