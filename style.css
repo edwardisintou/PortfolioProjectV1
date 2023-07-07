@@ -183,3 +183,7 @@ body::before {
 .code-icons {
   font-size: 1.2em;
 }
+
+#location {
+  width: 100%;
+}
