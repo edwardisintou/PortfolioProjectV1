@@ -1,3 +1,37 @@
+#main-footer {
+  font-size: 16px;
+  font-weight: bold;
+  background-color: black;
+}
+
+#main-navbar {
+  background-color: black;
+}
+
+#showcase {
+  background-color: black;
+}
+
+#about {
+  background-color: black;
+}
+
+#skills {
+  background-color: black;
+}
+
+#projects {
+  background-color: black;
+}
+
+#contact {
+  background-color: black;
+}
+
+.contact-elements {
+  background-color: black;
+}
+
 @media (max-width: 992px) {
   .nav-link {
     text-align: center;
@@ -196,38 +230,4 @@ body::before {
 
 #location {
   width: 100%;
-}
-
-#main-footer {
-  font-size: 16px;
-  font-weight: bold;
-  background-color: black;
-}
-
-#main-navbar {
-  background-color: black;
-}
-
-#showcase {
-  background-color: black;
-}
-
-#about {
-  background-color: black;
-}
-
-#skills {
-  background-color: black;
-}
-
-#projects {
-  background-color: black;
-}
-
-#contact {
-  background-color: black;
-}
-
-.contact-elements {
-  background-color: black;
 }
