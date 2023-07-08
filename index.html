@@ -21,670 +21,651 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="bg-color">
-      <nav class="navbar navbar-expand-lg py-3 fixed-top" id="main-navbar">
-        <div class="container-fluid mx-3">
-          <!-- Brand -->
-          <a href="#" class="navbar-brand text-white mx-3">EDWARD CODING</a>
+    <!-- Navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark py-3 fixed-top"
+      id="main-navbar"
+    >
+      <div class="container-fluid mx-3">
+        <!-- Brand -->
+        <a href="#" class="navbar-brand mx-3">EDWARD CODING</a>
 
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navmenu"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navmenu">
-            <ul class="navbar-nav">
-              <li class="nav-item elements">
-                <a href="#about" id="font" class="nav-link mx-1">ABOUT ME</a>
-              </li>
-              <li class="nav-item elements">
-                <a href="#skills" id="font" class="nav-link mx-1">SKILLS</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-white"
-                  href="#projects"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  id="font"
-                >
-                  PROJECTS
-                </a>
-                <ul class="dropdown-menu">
-                  <li>
-                    <a
-                      class="dropdown-item text-center text-danger all-project"
-                      href="#projects"
-                      >All Project</a
-                    >
-                  </li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a
-                      class="dropdown-item text-secondary university-projects"
-                      href="#university"
-                      >University projects</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#graph-representation" class="dropdown-item"
-                      >Graph Representation</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#intrusion-detection-system" class="dropdown-item"
-                      >Intrusion Detection System</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      href="#data-analysis-and-visualisation"
-                      class="dropdown-item"
-                      >Data Analysis And Visualisation</a
-                    >
-                  </li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a
-                      href="#self"
-                      class="dropdown-item text-secondary self-projects"
-                      >Self Projects</a
-                    >
-                  </li>
-                  <li>
-                    <a href="#portfolio-project-v1" class="dropdown-item"
-                      >Portfolio Project Version 1</a
-                    >
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item elements">
-                <a href="#contact" id="font" class="nav-link">CONTACT</a>
-              </li>
-            </ul>
-
-            <ul class="navbar-nav ms-auto nav-icons">
-              <li class="nav-item">
-                <a
-                  href="https://www.linkedin.com/in/edward-le-aa16a127b/"
-                  target="_blank"
-                >
-                  <div class="h4 text-white">
-                    <i class="bi bi-linkedin mx-1 mx-sm-2 mx-md-3"></i>
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://github.com/edwardisintou" target="_blank">
-                  <div class="h4 text-white">
-                    <i class="bi bi-github mx-1 mx-sm-2 mx-md-3"></i>
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="https://www.facebook.com/edward.coding/"
-                  target="_blank"
-                >
-                  <div class="h4 text-white">
-                    <i class="bi bi-facebook mx-1 mx-sm-2 mx-md-3"></i>
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="https://www.instagram.com/_edwardcoding/"
-                  target="_blank"
-                >
-                  <div class="h4 text-white">
-                    <i class="bi bi-instagram mx-1 mx-sm-2 mx-md-3"></i>
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://wa.me/+61478776090" target="_blank">
-                  <div class="h4 text-white">
-                    <i class="bi bi-whatsapp mx-1 mx-sm-2 mx-md-3"></i>
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="#contact">
-                  <div class="h4 text-white">
-                    <i class="bi bi-envelope mx-1 mx-sm-2 mx-md-3"></i>
-                  </div>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a
-                  href="https://discordapp.com/channels/@me/1105405148827766834"
-                  target="_blank"
-                >
-                  <div class="h4 text-white">
-                    <i class="bi bi-discord mx-1 mx-sm-2 mx-md-3"></i>
-                  </div>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-
-      <!-- Showcase -->
-      <section class="text-white p-5 p-lg-0 pt-lg-4 text-center" id="showcase">
-        <div class="container">
-          <div class="row align-items-center justify-content-between">
-            <div class="col-sm text-center">
-              <h4 class="text-danger text-bold name">I'm Edward Le</h4>
-              <p class="lead my-4 text-center" id="sophomore">
-                A sophomore in
-                <a
-                  href="https://www.linkedin.com/in/edward-le-aa16a127b/"
-                  target="_blank"
-                  id="cs"
-                  ><span class="text-warning">Computer Science major</span></a
-                >
-                at The University of Western Australia
-              </p>
-              <button
-                class="btn btn-secondary btn-lg text-bold"
-                data-bs-target="#projects"
-              >
-                <a class="text-white checkout-button" href="#projects"
-                  >Checkout my projects</a
-                >
-              </button>
-            </div>
-
-            <div class="col-sm">
-              <div class="d-flex align-items-center justify-content-between">
-                <span
-                  class="author-avatar content-fill"
-                  data-tweaks="tweak-show-blog-item-author-profile"
-                >
-                  <img
-                    class="author-avatar-image d-none d-sm-block"
-                    src="ImagesFolder/myself.jpg"
-                    data-controller="AuthorProfileImageLoader"
-                    data-image="https://static1.squarespace.com/static/images/634ef45311fa906d9068af56/300w"
-                    data-load="false"
-                    alt=""
-                  />
-                </span>
-
-                <span
-                  class="author-avatar content-fill"
-                  data-tweaks="tweak-show-blog-item-author-profile"
-                >
-                  <img
-                    class="author-avatar-image d-none d-lg-block myself2"
-                    src="ImagesFolder/myself2.jpg"
-                    data-controller="AuthorProfileImageLoader"
-                    data-image="https://static1.squarespace.com/static/images/634ef45311fa906d9068af56/300w"
-                    data-load="false"
-                    alt=""
-                  />
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- About -->
-      <section class="text-white p-5" id="about">
-        <aside>
-          <div class="container">
-            <h1 class="text-center text-warning mb-4">About Me</h1>
-            <h3 class="mb-2 text-danger">BASIC INFORMATION</h3>
-            <h4 class="mb-2">My name is Edward Le and I'm from Vietnam</h4>
-            <p class="mb-2">
-              <i class="bi bi-arrow-right arrows"></i> Currently, I am living in
-              Australia, studying a second year of Computer Science major in
-              University of Western Australia. I'm passionate about modern
-              technology, innovation and logic. With high enthusiasm in coding,
-              I have experience in programming with diverse languages such as
-              Java, Python, SQL, C++, etc.
-            </p>
-            <p class="mb-2">
-              <i class="bi bi-arrow-right arrows"></i> By building a solid
-              foundation in programming, especially data structures & algorithms
-              and a will to learn, I am now self-learning
-              <a
-                href="https://www.piratekingdom.com/curriculum/web-development"
-                target="_blank"
-                ><span class="text-success">Web Development</span></a
-              >
-              for an expected role as a Full Stack Developer in my future job.
-              At the moment, my skills in developing a website include HTML,
-              CSS, Javascript, and Bootstrap.
-            </p>
-            <p class="mb-3">
-              <i class="bi bi-arrow-right arrows"></i>
-              I will graduate from University of Western Australia in summer of
-              2024.
-            </p>
-            <h3 class="mb-2 text-danger">EDUCATION</h3>
-            <h4 class="mb-2">Duc Tri Highschool Vietnam</h4>
-            <p class="mb-2">
-              <i class="bi bi-arrow-return-right arrows"></i> Aug 2018 - Feb
-              2021
-            </p>
-            <p class="mb-2">
-              <i class="bi bi-arrow-return-right arrows"></i> Related courses:
-              Basic Programming with C++
-            </p>
-            <h4 class="mb-2">Taylors College Perth</h4>
-            <p class="mb-2">
-              <i class="bi bi-arrow-right-circle arrows"></i> Feb 2021 - Nov
-              2021
-            </p>
-            <p class="mb-2">
-              <i class="bi bi-arrow-right-circle arrows"></i> My journey started
-              in 2021 when I first studied the Foundation Program of The
-              University of Western Australia at Taylors College Perth. At that
-              time I could not come to Australia due to COVID-19 so I took the
-              course online.
-            </p>
-            <h4 class="mb-2">University of Western Australia</h4>
-            <p class="mb-2">
-              <i class="bi bi-caret-right arrows"></i> Feb 2022 - Expected
-              Graduation: Dec 2024
-            </p>
-            <p class="mb-2">
-              <i class="bi bi-caret-right arrows"></i> Degree: Bachelor of
-              Science
-            </p>
-            <p class="mb-2">
-              <i class="bi bi-caret-right arrows"></i> Major: Computer Science
-            </p>
-            <p class="mb-2">
-              <i class="bi bi-caret-right arrows"></i> Related courses:
-              Object-Oriented-Programming with Java, Programming with Python,
-              Relational Database Management Systems, Introduction to
-              Cybersecurity, Data Structures & Algorithms, Data Analysis &
-              Visualization, Data Warehousing, etc.
-            </p>
-            <h4 class="mb-2">Honors & Awards</h4>
-          </div>
-        </aside>
-
-        <aside>
-          <div class="container text-center">
-            <div class="row justify-content-between align items-center g-4">
-              <div class="col-md-6 col-lg-3">
-                <div class="card h-100 bg-secondary text-white">
-                  <img
-                    src="ImagesFolder/duc-tri.jpg"
-                    alt=""
-                    id="card-img-top"
-                  />
-                  <div class="card-body pt-2">
-                    <h4 class="card-title mb-3">Duc Tri Highschool</h4>
-                    <p class="card-text mb-2">
-                      Third-place in the first time organized contest of Rubber
-                      Band Powered Car
-                    </p>
-                    <p class="card-text mb-2">
-                      <small class="text-small"
-                        >Issued by Duc Tri Highschool in November 2019</small
-                      >
-                    </p>
-                    <a
-                      href="https://www.linkedin.com/in/edward-le-aa16a127b/details/honors/"
-                      target="_blank"
-                      class="btn read-button"
-                      >Read More</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3">
-                <div class="card h-100 bg-secondary text-white">
-                  <img
-                    src="ImagesFolder/taylors-college.png"
-                    class="bg-white"
-                    alt=""
-                    id="card-img-top"
-                  />
-                  <div class="card-body pt-2">
-                    <h4 class="card-title mb-3">Taylors College Perth</h4>
-                    <p class="card-text mb-2">
-                      Received a schorlarship of 7500 AUD for 1 year studying in
-                      1 year studying
-                    </p>
-                    <p class="card-text mb-2">
-                      <small class="text-small"
-                        >Issued by Taylors College Perth in December 2020</small
-                      >
-                    </p>
-                    <a
-                      href="https://www.linkedin.com/in/edward-le-aa16a127b/details/honors/"
-                      target="_blank"
-                      class="btn read-button"
-                      >Read More</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3">
-                <div class="card h-100 bg-secondary text-white">
-                  <img src="ImagesFolder/uwa.png" alt="" id="card-img-top" />
-                  <div class="card-body pt-2">
-                    <h4 class="card-title mb-3">UWA</h4>
-                    <p class="card-text mb-2">
-                      Received a maximum amount schorlarship of 12000 AUD for
-                      each year in 3 years studying
-                    </p>
-                    <p class="card-text mb-2">
-                      <small class="text-small"
-                        >Issued by UWA in December 2021</small
-                      >
-                    </p>
-                    <a
-                      href="https://www.linkedin.com/in/edward-le-aa16a127b/details/honors/"
-                      target="_blank"
-                      class="btn read-button"
-                      >Read More</a
-                    >
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 col-lg-3">
-                <div class="card h-100 bg-secondary text-white">
-                  <img
-                    src="ImagesFolder/uadelaide.png"
-                    alt=""
-                    class="bg-white"
-                    id="card-img-top"
-                  />
-                  <div class="card-body pt-2">
-                    <h4 class="card-title mb-3">University of Adelaide</h4>
-                    <p class="card-text mb-2">
-                      Received a scholarship of 25% of tuition fee for each year
-                      in 3 year studying
-                    </p>
-                    <p class="card-text mb-2">
-                      <small class="text-small"
-                        >Issued by University of Adelaide in February
-                        2022</small
-                      >
-                    </p>
-                    <a
-                      href="https://www.linkedin.com/in/edward-le-aa16a127b/details/honors/"
-                      target="_blank"
-                      class="btn read-button"
-                      >Read More</a
-                    >
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </aside>
-      </section>
-
-      <!-- Skills -->
-      <section class="text-white text-center py-5" id="skills">
-        <div class="container">
-          <h1 class="text-warning mb-3">Skills</h1>
-          <ul>
-            <li class="mb-2 me-4 my-skills">
-              Languages: Java, Python, SQL, C++, HTML, CSS, Javascript
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav">
+            <li class="nav-item elements">
+              <a href="#about" id="font" class="nav-link mx-1">ABOUT ME</a>
             </li>
-            <li class="mb-2 me-4 my-skills">Framework: Bootstrap</li>
-            <li class="mb-2 me-4 my-skills">
-              Tools/Technology: VS Code, Github, SSMS, Visual Studio, Power BI,
-              Neo4J
+            <li class="nav-item elements">
+              <a href="#skills" id="font" class="nav-link mx-1">SKILLS</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#projects"
+                role="button"
+                data-bs-toggle="dropdown"
+                id="font"
+              >
+                PROJECTS
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item text-center text-danger all-project"
+                    href="#projects"
+                    >All Project</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item text-secondary university-projects"
+                    href="#university"
+                    >University projects</a
+                  >
+                </li>
+                <li>
+                  <a href="#graph-representation" class="dropdown-item"
+                    >Graph Representation</a
+                  >
+                </li>
+                <li>
+                  <a href="#intrusion-detection-system" class="dropdown-item"
+                    >Intrusion Detection System</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#data-analysis-and-visualisation"
+                    class="dropdown-item"
+                    >Data Analysis And Visualisation</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    href="#self"
+                    class="dropdown-item text-secondary self-projects"
+                    >Self Projects</a
+                  >
+                </li>
+                <li>
+                  <a href="#portfolio-project-v1" class="dropdown-item"
+                    >Portfolio Project Version 1</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item elements">
+              <a href="#contact" id="font" class="nav-link">CONTACT</a>
             </li>
           </ul>
 
-          <div class="px-3">
-            <a
-              href="https://handbooks.uwa.edu.au/unitdetails?code=CITS2200"
-              target="_blank"
-              ><i class="fab fa-java fa-2x mx-2 java"></i
-            ></a>
-            <a
-              href="https://handbooks.uwa.edu.au/unitdetails?code=CITS2401"
-              target="_blank"
-              ><i class="fab fa-python fa-2x mx-2 python"></i
-            ></a>
-            <a
-              href="https://handbooks.uwa.edu.au/unitdetails?code=CITS1402"
-              target="_blank"
-              ><i class="fas fa-database fa-2x mx-2 sql"></i
-            ></a>
-            <a
-              href="https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb"
-              target="_blank"
-              ><i class="fab fa-cuttlefish fa-2x ms-2 C"></i
-            ></a>
-            <a
-              href="https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb"
-              target="_blank"
-              ><i class="fas fa-plus plus"></i
-            ></a>
-            <a
-              href="https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb"
-              target="_blank"
-              ><i class="fas fa-plus me-1 plus"></i
-            ></a>
-            <a
-              href="https://www.youtube.com/watch?v=UB1O30fR-EE"
-              target="_blank"
-              ><i class="fab fa-html5 fa-2x mx-2 html"></i
-            ></a>
-            <a
-              href="https://www.youtube.com/watch?v=yfoY53QXEnI"
-              target="_blank"
-              ><i class="fab fa-css3 fa-2x mx-1 css"></i
-            ></a>
-            <a
-              href="https://www.youtube.com/watch?v=hdI2bqOjy3c"
-              target="_blank"
-              ><i class="fab fa-js fa-2x mx-2 js"></i
-            ></a>
-            <a
-              href="https://www.youtube.com/watch?v=4sosXZsdy-s"
-              target="_blank"
-              ><i class="fab fa-bootstrap fa-2x mx-2 bootstrap"></i
-            ></a>
+          <ul class="navbar-nav ms-auto nav-icons">
+            <li class="nav-item">
+              <a
+                href="https://www.linkedin.com/in/edward-le-aa16a127b/"
+                target="_blank"
+              >
+                <div class="h4 text-white">
+                  <i class="bi bi-linkedin mx-1 mx-sm-2 mx-md-3"></i>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://github.com/edwardisintou" target="_blank">
+                <div class="h4 text-white">
+                  <i class="bi bi-github mx-1 mx-sm-2 mx-md-3"></i>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://www.facebook.com/edward.coding/" target="_blank">
+                <div class="h4 text-white">
+                  <i class="bi bi-facebook mx-1 mx-sm-2 mx-md-3"></i>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://www.instagram.com/_edwardcoding/"
+                target="_blank"
+              >
+                <div class="h4 text-white">
+                  <i class="bi bi-instagram mx-1 mx-sm-2 mx-md-3"></i>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="https://wa.me/+61478776090" target="_blank">
+                <div class="h4 text-white">
+                  <i class="bi bi-whatsapp mx-1 mx-sm-2 mx-md-3"></i>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact">
+                <div class="h4 text-white">
+                  <i class="bi bi-envelope mx-1 mx-sm-2 mx-md-3"></i>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://discordapp.com/channels/@me/1105405148827766834"
+                target="_blank"
+              >
+                <div class="h4 text-white">
+                  <i class="bi bi-discord mx-1 mx-sm-2 mx-md-3"></i>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Showcase -->
+    <section class="text-white p-5 p-lg-0 pt-lg-4 text-center" id="showcase">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-sm text-center">
+            <h4 class="text-danger text-bold name">I'm Edward Le</h4>
+            <p class="lead my-4 text-center" id="sophomore">
+              A sophomore in
+              <a
+                href="https://www.linkedin.com/in/edward-le-aa16a127b/"
+                target="_blank"
+                id="cs"
+                ><span class="text-warning">Computer Science major</span></a
+              >
+              at The University of Western Australia
+            </p>
+            <button
+              class="btn btn-secondary btn-lg text-bold"
+              data-bs-target="#projects"
+            >
+              <a class="text-white checkout-button" href="#projects"
+                >Checkout my projects</a
+              >
+            </button>
           </div>
-        </div>
-      </section>
 
-      <!-- Projects -->
-      <section class="text-white py-5 pb-3" id="projects">
-        <div class="container">
-          <h1 class="text-center text-warning">Projects</h1>
-          <section id="university">
-            <aside class="pt-3 px-5" id="graph-representation">
-              <div class="row align-items-center justify-content-between">
-                <div class="col-md">
-                  <img
-                    src="ImagesFolder/graph-representation.svg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="col-md pb-5">
-                  <h2 class="mb-3">Graph Representation</h2>
-                  <p class="p1">
-                    The topic of this project is to analyze parts of the
-                    Wikipedia graph by creating a class that can store and
-                    analyze various features of a Wikipedia page graph.
-                  </p>
-                  <p>
-                    Wikipedia contains numerous pages on varied topics. These
-                    pages may link to other pages inside Wikipedia. If we treat
-                    pages as vertices, and links as directed edges, then
-                    Wikipedia can be viewed as a graph.
-                  </p>
-                  <p>
-                    This project can be done in pairs or individual as prefer
-                    with report explaining clearly all method used and
-                    complexity in pdf format.
-                  </p>
-                  <a
-                    href="https://github.com/edwardisintou/GraphRepresentation"
-                    target="_blank"
-                    class="btn btn-secondary mt-2 code"
-                  >
-                    Code <i class="fab fa-github code-icons"></i>
-                  </a>
-                </div>
-              </div>
-            </aside>
-            <aside id="intrusion-detection-system">
-              <div class="row align-items-center justify-content-between">
-                <div class="col-md p-5">
-                  <h2 class="mb-3">Intrusion Detection System</h2>
-                  <p class="p1">
-                    In this project, I will be implementing an Intrusion
-                    Detection System (IDS) for smart vars (also referred to as
-                    smart vehicles) in Vehicle Networks.
-                  </p>
-                  <p>
-                    There are several approaches to detecting intrusions in
-                    smart cars, and one of the simplest but often quite
-                    effective methods is through statistical analysis.
-                  </p>
-                  <p>
-                    By identifying outliers in the data, we can detect and alert
-                    users to potential security breaches.
-                  </p>
-                  <a
-                    href="https://github.com/edwardisintou/IntrusionDetectionSystem"
-                    target="_blank"
-                    class="btn btn-secondary mt-2 code"
-                  >
-                    Code <i class="fab fa-github code-icons"></i>
-                  </a>
-                </div>
-                <div class="col-md text-center pb-5">
-                  <img
-                    src="ImagesFolder/intrusion-detection-system.svg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-              </div>
-            </aside>
-            <aside class="pt-3" id="data-analysis-and-visualisation">
-              <div class="row align-items-center justify-content-between">
-                <div class="col-md">
-                  <img
-                    src="ImagesFolder/data-analysis-and-visualisation.svg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-                <div class="col-md p-5">
-                  <h2 class="mb-3">Data Analysis And Visualization</h2>
-                  <p class="p1">
-                    In this project, we will continue from our Project 1 where
-                    we implemented an intrusion detection system (IDS).
-                  </p>
-                  <p>
-                    Instead of implementing the features (which we completed in
-                    Project 1), we will now focus on data analysis and
-                    visualisation skills to better present what our datasets
-                    contain.
-                  </p>
-                  <p>
-                    The skills shown in this project include data analysis, data
-                    visualisation, report writing, and peer marking.
-                  </p>
-                  <a
-                    href="https://github.com/edwardisintou/DataAnalysisAndVisualisation"
-                    target="_blank"
-                    class="btn btn-secondary mt-2 code"
-                  >
-                    Code <i class="fab fa-github code-icons"></i>
-                  </a>
-                </div>
-              </div>
-            </aside>
-          </section>
-          <section id="self">
-            <aside class="p-5" id="portfolio-project-v1">
-              <div class="row align-items-center justify-content-between">
-                <div class="col-md">
-                  <h2 class="mb-3">Portfolio Project Version 1</h2>
-                  <p class="p1">
-                    This is the project of this bio website that showcases my
-                    information.
-                  </p>
-                  <p>
-                    It is built using HTML, CSS, and Bootstrap with requirement
-                    of providing an interactive user experience with responsive
-                    design for both desktop and mobile devices.
-                  </p>
-                  <p>
-                    This is version 1 of the bio website, I will keep updating
-                    it in further project versions.
-                  </p>
-                  <a
-                    href="https://github.com/edwardisintou/PortfolioProjectV1"
-                    target="_blank"
-                    class="btn btn-secondary mt-2 code"
-                  >
-                    Code <i class="fab fa-github code-icons"></i>
-                  </a>
-                </div>
-                <div class="col-md p-5">
-                  <img
-                    src="ImagesFolder/portfolio-project-v1.svg"
-                    alt=""
-                    class="img-fluid portfolio"
-                  />
-                </div>
-              </div>
-            </aside>
-          </section>
-        </div>
-      </section>
+          <div class="col-sm">
+            <div class="d-flex align-items-center justify-content-between">
+              <span
+                class="author-avatar content-fill"
+                data-tweaks="tweak-show-blog-item-author-profile"
+              >
+                <img
+                  class="author-avatar-image d-none d-sm-block"
+                  src="ImagesFolder/myself.jpg"
+                  data-controller="AuthorProfileImageLoader"
+                  data-image="https://static1.squarespace.com/static/images/634ef45311fa906d9068af56/300w"
+                  data-load="false"
+                  alt=""
+                />
+              </span>
 
-      <!-- Contact -->
-      <section class="text-white px-5" id="contact">
-        <div class="container">
-          <h1 class="text-center text-warning mb-4">Contact</h1>
-          <div class="row justify-content-between align-items-center g-4">
-            <div class="col-lg-6 text-white contact-elements">
-              <ul class="list-group list-group-flush lead">
-                <li class="list-group-item contact-elements text-white">
-                  <span class="fw-bold">Name:</span> Edward Le
-                </li>
-                <li class="list-group-item contact-elements text-white">
-                  <span class="fw-bold">Phone Number:</span> (+61) 478-776-090
-                </li>
-                <li class="list-group-item contact-elements text-white">
-                  <span class="fw-bold">Address:</span> 89 Stirling St Perth WA
-                  6000 Australia
-                </li>
-                <li class="list-group-item contact-elements text-white">
-                  <span class="fw-bold">Personal Email:</span>
-                  leekhoaa@gmail.com
-                </li>
-                <li class="list-group-item contact-elements text-white">
-                  <span class="fw-bold">Student Email:</span>
-                  23020568@student.uwa.edu.au
-                </li>
-              </ul>
-            </div>
-            <div class="col-lg-6">
-              <img src="ImagesFolder/location.png" id="location" alt="" />
+              <span
+                class="author-avatar content-fill"
+                data-tweaks="tweak-show-blog-item-author-profile"
+              >
+                <img
+                  class="author-avatar-image d-none d-lg-block myself2"
+                  src="ImagesFolder/myself2.jpg"
+                  data-controller="AuthorProfileImageLoader"
+                  data-image="https://static1.squarespace.com/static/images/634ef45311fa906d9068af56/300w"
+                  data-load="false"
+                  alt=""
+                />
+              </span>
             </div>
           </div>
         </div>
-      </section>
-    </div>
-    <!-- Navbar -->
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="text-white p-5" id="about">
+      <aside>
+        <div class="container">
+          <h1 class="text-center text-warning mb-4">About Me</h1>
+          <h3 class="mb-2 text-danger">BASIC INFORMATION</h3>
+          <h4 class="mb-2">My name is Edward Le and I'm from Vietnam</h4>
+          <p class="mb-2">
+            <i class="bi bi-arrow-right arrows"></i> Currently, I am living in
+            Australia, studying a second year of Computer Science major in
+            University of Western Australia. I'm passionate about modern
+            technology, innovation and logic. With high enthusiasm in coding, I
+            have experience in programming with diverse languages such as Java,
+            Python, SQL, C++, etc.
+          </p>
+          <p class="mb-2">
+            <i class="bi bi-arrow-right arrows"></i> By building a solid
+            foundation in programming, especially data structures & algorithms
+            and a will to learn, I am now self-learning
+            <a
+              href="https://www.piratekingdom.com/curriculum/web-development"
+              target="_blank"
+              ><span class="text-success">Web Development</span></a
+            >
+            for an expected role as a Full Stack Developer in my future job. At
+            the moment, my skills in developing a website include HTML, CSS,
+            Javascript, and Bootstrap.
+          </p>
+          <p class="mb-3">
+            <i class="bi bi-arrow-right arrows"></i>
+            I will graduate from University of Western Australia in summer of
+            2024.
+          </p>
+          <h3 class="mb-2 text-danger">EDUCATION</h3>
+          <h4 class="mb-2">Duc Tri Highschool Vietnam</h4>
+          <p class="mb-2">
+            <i class="bi bi-arrow-return-right arrows"></i> Aug 2018 - Feb 2021
+          </p>
+          <p class="mb-2">
+            <i class="bi bi-arrow-return-right arrows"></i> Related courses:
+            Basic Programming with C++
+          </p>
+          <h4 class="mb-2">Taylors College Perth</h4>
+          <p class="mb-2">
+            <i class="bi bi-arrow-right-circle arrows"></i> Feb 2021 - Nov 2021
+          </p>
+          <p class="mb-2">
+            <i class="bi bi-arrow-right-circle arrows"></i> My journey started
+            in 2021 when I first studied the Foundation Program of The
+            University of Western Australia at Taylors College Perth. At that
+            time I could not come to Australia due to COVID-19 so I took the
+            course online.
+          </p>
+          <h4 class="mb-2">University of Western Australia</h4>
+          <p class="mb-2">
+            <i class="bi bi-caret-right arrows"></i> Feb 2022 - Expected
+            Graduation: Dec 2024
+          </p>
+          <p class="mb-2">
+            <i class="bi bi-caret-right arrows"></i> Degree: Bachelor of Science
+          </p>
+          <p class="mb-2">
+            <i class="bi bi-caret-right arrows"></i> Major: Computer Science
+          </p>
+          <p class="mb-2">
+            <i class="bi bi-caret-right arrows"></i> Related courses:
+            Object-Oriented-Programming with Java, Programming with Python,
+            Relational Database Management Systems, Introduction to
+            Cybersecurity, Data Structures & Algorithms, Data Analysis &
+            Visualization, Data Warehousing, etc.
+          </p>
+          <h4 class="mb-2">Honors & Awards</h4>
+        </div>
+      </aside>
+
+      <aside>
+        <div class="container text-center">
+          <div class="row justify-content-between align items-center g-4">
+            <div class="col-md-6 col-lg-3">
+              <div class="card h-100 bg-secondary text-white">
+                <img src="ImagesFolder/duc-tri.jpg" alt="" id="card-img-top" />
+                <div class="card-body pt-2">
+                  <h4 class="card-title mb-3">Duc Tri Highschool</h4>
+                  <p class="card-text mb-2">
+                    Third-place in the first time organized contest of Rubber
+                    Band Powered Car
+                  </p>
+                  <p class="card-text mb-2">
+                    <small class="text-small"
+                      >Issued by Duc Tri Highschool in November 2019</small
+                    >
+                  </p>
+                  <a
+                    href="https://www.linkedin.com/in/edward-le-aa16a127b/details/honors/"
+                    target="_blank"
+                    class="btn btn-dark"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card h-100 bg-secondary text-white">
+                <img
+                  src="ImagesFolder/taylors-college.png"
+                  class="bg-white"
+                  alt=""
+                  id="card-img-top"
+                />
+                <div class="card-body pt-2">
+                  <h4 class="card-title mb-3">Taylors College Perth</h4>
+                  <p class="card-text mb-2">
+                    Received a schorlarship of 7500 AUD for 1 year studying in 1
+                    year studying
+                  </p>
+                  <p class="card-text mb-2">
+                    <small class="text-small"
+                      >Issued by Taylors College Perth in December 2020</small
+                    >
+                  </p>
+                  <a
+                    href="https://www.linkedin.com/in/edward-le-aa16a127b/details/honors/"
+                    target="_blank"
+                    class="btn btn-dark"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card h-100 bg-secondary text-white">
+                <img src="ImagesFolder/uwa.png" alt="" id="card-img-top" />
+                <div class="card-body pt-2">
+                  <h4 class="card-title mb-3">UWA</h4>
+                  <p class="card-text mb-2">
+                    Received a maximum amount schorlarship of 12000 AUD for each
+                    year in 3 years studying
+                  </p>
+                  <p class="card-text mb-2">
+                    <small class="text-small"
+                      >Issued by UWA in December 2021</small
+                    >
+                  </p>
+                  <a
+                    href="https://www.linkedin.com/in/edward-le-aa16a127b/details/honors/"
+                    target="_blank"
+                    class="btn btn-dark"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <div class="card h-100 bg-secondary text-white">
+                <img
+                  src="ImagesFolder/uadelaide.png"
+                  alt=""
+                  class="bg-white"
+                  id="card-img-top"
+                />
+                <div class="card-body pt-2">
+                  <h4 class="card-title mb-3">University of Adelaide</h4>
+                  <p class="card-text mb-2">
+                    Received a scholarship of 25% of tuition fee for each year
+                    in 3 year studying
+                  </p>
+                  <p class="card-text mb-2">
+                    <small class="text-small"
+                      >Issued by University of Adelaide in February 2022</small
+                    >
+                  </p>
+                  <a
+                    href="https://www.linkedin.com/in/edward-le-aa16a127b/details/honors/"
+                    target="_blank"
+                    class="btn btn-dark"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <!-- Skills -->
+    <section class="text-white text-center py-5" id="skills">
+      <div class="container">
+        <h1 class="text-warning mb-3">Skills</h1>
+        <ul>
+          <li class="mb-2 me-4 my-skills">
+            Languages: Java, Python, SQL, C++, HTML, CSS, Javascript
+          </li>
+          <li class="mb-2 me-4 my-skills">Framework: Bootstrap</li>
+          <li class="mb-2 me-4 my-skills">
+            Tools/Technology: VS Code, Github, SSMS, Visual Studio, Power BI,
+            Neo4J
+          </li>
+        </ul>
+
+        <div class="px-3">
+          <a
+            href="https://handbooks.uwa.edu.au/unitdetails?code=CITS2200"
+            target="_blank"
+            ><i class="fab fa-java fa-2x mx-2 java"></i
+          ></a>
+          <a
+            href="https://handbooks.uwa.edu.au/unitdetails?code=CITS2401"
+            target="_blank"
+            ><i class="fab fa-python fa-2x mx-2 python"></i
+          ></a>
+          <a
+            href="https://handbooks.uwa.edu.au/unitdetails?code=CITS1402"
+            target="_blank"
+            ><i class="fas fa-database fa-2x mx-2 sql"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb"
+            target="_blank"
+            ><i class="fab fa-cuttlefish fa-2x ms-2 C"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb"
+            target="_blank"
+            ><i class="fas fa-plus plus"></i
+          ></a>
+          <a
+            href="https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb"
+            target="_blank"
+            ><i class="fas fa-plus me-1 plus"></i
+          ></a>
+          <a href="https://www.youtube.com/watch?v=UB1O30fR-EE" target="_blank"
+            ><i class="fab fa-html5 fa-2x mx-2 html"></i
+          ></a>
+          <a href="https://www.youtube.com/watch?v=yfoY53QXEnI" target="_blank"
+            ><i class="fab fa-css3 fa-2x mx-1 css"></i
+          ></a>
+          <a href="https://www.youtube.com/watch?v=hdI2bqOjy3c" target="_blank"
+            ><i class="fab fa-js fa-2x mx-2 js"></i
+          ></a>
+          <a href="https://www.youtube.com/watch?v=4sosXZsdy-s" target="_blank"
+            ><i class="fab fa-bootstrap fa-2x mx-2 bootstrap"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="text-white py-5 pb-3" id="projects">
+      <div class="container">
+        <h1 class="text-center text-warning">Projects</h1>
+        <section id="university">
+          <aside class="pt-3 px-5" id="graph-representation">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-md">
+                <img
+                  src="ImagesFolder/graph-representation.svg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-md pb-5">
+                <h2 class="mb-3">Graph Representation</h2>
+                <p class="p1">
+                  The topic of this project is to analyze parts of the Wikipedia
+                  graph by creating a class that can store and analyze various
+                  features of a Wikipedia page graph.
+                </p>
+                <p>
+                  Wikipedia contains numerous pages on varied topics. These
+                  pages may link to other pages inside Wikipedia. If we treat
+                  pages as vertices, and links as directed edges, then Wikipedia
+                  can be viewed as a graph.
+                </p>
+                <p>
+                  This project can be done in pairs or individual as prefer with
+                  report explaining clearly all method used and complexity in
+                  pdf format.
+                </p>
+                <a
+                  href="https://github.com/edwardisintou/GraphRepresentation"
+                  target="_blank"
+                  class="btn btn-secondary mt-2 code"
+                >
+                  Code <i class="fab fa-github code-icons"></i>
+                </a>
+              </div>
+            </div>
+          </aside>
+          <aside id="intrusion-detection-system">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-md p-5">
+                <h2 class="mb-3">Intrusion Detection System</h2>
+                <p class="p1">
+                  In this project, I will be implementing an Intrusion Detection
+                  System (IDS) for smart vars (also referred to as smart
+                  vehicles) in Vehicle Networks.
+                </p>
+                <p>
+                  There are several approaches to detecting intrusions in smart
+                  cars, and one of the simplest but often quite effective
+                  methods is through statistical analysis.
+                </p>
+                <p>
+                  By identifying outliers in the data, we can detect and alert
+                  users to potential security breaches.
+                </p>
+                <a
+                  href="https://github.com/edwardisintou/IntrusionDetectionSystem"
+                  target="_blank"
+                  class="btn btn-secondary mt-2 code"
+                >
+                  Code <i class="fab fa-github code-icons"></i>
+                </a>
+              </div>
+              <div class="col-md text-center pb-5">
+                <img
+                  src="ImagesFolder/intrusion-detection-system.svg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+            </div>
+          </aside>
+          <aside class="pt-3" id="data-analysis-and-visualisation">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-md">
+                <img
+                  src="ImagesFolder/data-analysis-and-visualisation.svg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </div>
+              <div class="col-md p-5">
+                <h2 class="mb-3">Data Analysis And Visualization</h2>
+                <p class="p1">
+                  In this project, we will continue from our Project 1 where we
+                  implemented an intrusion detection system (IDS).
+                </p>
+                <p>
+                  Instead of implementing the features (which we completed in
+                  Project 1), we will now focus on data analysis and
+                  visualisation skills to better present what our datasets
+                  contain.
+                </p>
+                <p>
+                  The skills shown in this project include data analysis, data
+                  visualisation, report writing, and peer marking.
+                </p>
+                <a
+                  href="https://github.com/edwardisintou/DataAnalysisAndVisualisation"
+                  target="_blank"
+                  class="btn btn-secondary mt-2 code"
+                >
+                  Code <i class="fab fa-github code-icons"></i>
+                </a>
+              </div>
+            </div>
+          </aside>
+        </section>
+        <section id="self">
+          <aside class="p-5" id="portfolio-project-v1">
+            <div class="row align-items-center justify-content-between">
+              <div class="col-md">
+                <h2 class="mb-3">Portfolio Project Version 1</h2>
+                <p class="p1">
+                  This is the project of this bio website that showcases my
+                  information.
+                </p>
+                <p>
+                  It is built using HTML, CSS, and Bootstrap with requirement of
+                  providing an interactive user experience with responsive
+                  design for both desktop and mobile devices.
+                </p>
+                <p>
+                  This is version 1 of the bio website, I will keep updating it
+                  in further project versions.
+                </p>
+                <a
+                  href="https://github.com/edwardisintou/PortfolioProjectV1"
+                  target="_blank"
+                  class="btn btn-secondary mt-2 code"
+                >
+                  Code <i class="fab fa-github code-icons"></i>
+                </a>
+              </div>
+              <div class="col-md p-5">
+                <img
+                  src="ImagesFolder/portfolio-project-v1.svg"
+                  alt=""
+                  class="img-fluid portfolio"
+                />
+              </div>
+            </div>
+          </aside>
+        </section>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="text-white px-5" id="contact">
+      <div class="container">
+        <h1 class="text-center text-warning mb-4">Contact</h1>
+        <div class="row justify-content-between align-items-center g-4">
+          <div class="col-lg-6 text-white contact-elements">
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item contact-elements text-white">
+                <span class="fw-bold">Name:</span> Edward Le
+              </li>
+              <li class="list-group-item contact-elements text-white">
+                <span class="fw-bold">Phone Number:</span> (+61) 478-776-090
+              </li>
+              <li class="list-group-item contact-elements text-white">
+                <span class="fw-bold">Address:</span> 89 Stirling St Perth WA
+                6000 Australia
+              </li>
+              <li class="list-group-item contact-elements text-white">
+                <span class="fw-bold">Personal Email:</span> leekhoaa@gmail.com
+              </li>
+              <li class="list-group-item contact-elements text-white">
+                <span class="fw-bold">Student Email:</span>
+                23020568@student.uwa.edu.au
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <img src="ImagesFolder/location.png" id="location" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Footer -->
     <footer
