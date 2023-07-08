@@ -2,7 +2,7 @@
 
 ## Frontend Portfolio Project Version 1
 
-- Checkout the website here:
+- Checkout the website here:\
   https://edwardcoding.com/
 
 This project is a personal bio website built using HTML, CSS, and Bootstrap. The website showcases information about me and provides an interactive user experience with responsive design for both desktop and mobile devices.
