@@ -208,12 +208,12 @@ body::before {
   background-color: black;
 }
 
-.showcase {
+#showcase {
   background-color: black;
 }
 
 #about {
-  background-color: black !important;
+  background-color: black;
 }
 
 #skills {
