@@ -2,36 +2,6 @@ body {
   background-color: black;
 }
 
-.bg-color {
-  background-color: black;
-}
-
-#main-footer {
-  font-size: 16px;
-  background-color: black;
-  font-weight: bold;
-}
-
-#main-navbar {
-  background-color: black;
-}
-
-#about {
-  background-color: #000;
-}
-
-#skills {
-  background-color: black;
-}
-
-#projects {
-  background-color: black;
-}
-
-#contact {
-  background-color: black;
-}
-
 .contact-elements {
   background-color: black;
 }
@@ -238,4 +208,34 @@ body::before {
 
 .read-button {
   background-color: antiquewhite;
+}
+
+.bg-color {
+  background-color: black;
+}
+
+#main-footer {
+  font-size: 16px;
+  background-color: black;
+  font-weight: bold;
+}
+
+#main-navbar {
+  background-color: black;
+}
+
+#about {
+  background-color: #000;
+}
+
+#skills {
+  background-color: black;
+}
+
+#projects {
+  background-color: black;
+}
+
+#contact {
+  background-color: black;
 }
