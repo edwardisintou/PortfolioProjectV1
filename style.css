@@ -229,7 +229,7 @@ body::before {
 }
 
 #skills {
-  background-color: black;
+  background-color: black !important;
 }
 
 #projects {
