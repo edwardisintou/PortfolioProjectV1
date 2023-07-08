@@ -213,7 +213,7 @@ body::before {
 }
 
 #about {
-  background-color: black;
+  background-color: black !important;
 }
 
 #skills {
