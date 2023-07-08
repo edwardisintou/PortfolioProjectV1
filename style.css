@@ -83,6 +83,10 @@ body::before {
   font-weight: bold;
 }
 
+.name {
+  font-size: 30px;
+}
+
 .text-warning {
   font-size: 36px;
   font-weight: bold;
@@ -120,10 +124,6 @@ body::before {
   text-decoration: underline;
 }
 
-.ask {
-  font-weight: bold;
-}
-
 .text-small {
   font-size: 12px;
   color: lightgray;
@@ -134,7 +134,7 @@ body::before {
 }
 
 .my-skills {
-  font-size: 17px;
+  font-size: 18px;
   list-style: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -203,4 +203,33 @@ body::before {
 #main-footer {
   font-size: 16px;
   font-weight: bold;
+  background-color: black;
+}
+
+#main-navbar {
+  background-color: black;
+}
+
+#showcase {
+  background-color: black;
+}
+
+#about {
+  background-color: black;
+}
+
+#skills {
+  background-color: black;
+}
+
+#projects {
+  background-color: black;
+}
+
+#contact {
+  background-color: black;
+}
+
+.contact-elements {
+  background-color: black;
 }
