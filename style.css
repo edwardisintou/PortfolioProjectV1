@@ -33,12 +33,6 @@
   }
 }
 
-@media (max-width: 576px) {
-  #font {
-    font-size: 30px;
-  }
-}
-
 @media (min-width: 768px) {
   .news-input {
     width: 45%;
@@ -177,8 +171,12 @@ body::before {
 }
 
 @media (max-width: 576px) {
+  #font {
+    font-size: 30px;
+  }
+
   .portfolio {
-    width: 200%;
+    width: 100%;
   }
 }
 
